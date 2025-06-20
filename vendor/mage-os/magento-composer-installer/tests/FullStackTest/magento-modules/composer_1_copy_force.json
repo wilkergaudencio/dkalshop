@@ -1,0 +1,42 @@
+{
+	"require": {
+        "magento/magento2-module-mock": "1.*",
+		"magento/magento-composer-installer": "100.100.100",
+        "theseer/autoload": "~1.14",
+        "zetacomponents/console-tools": "dev-master",
+        "magento/magento-composer-installer-test-issue-87": "1.*",
+        "magento/magento-composer-installer-test-update-file-remove": "1.*",
+        "magento/magento-composer-installer-test-wildcard": "1.*",
+        "magento/magento-composer-installer-test-wildcard2": "1.*",
+        "magento/magento-composer-installer-test-library": "1.*",
+        "magento/magento-composer-installer-test-sort1": "1.*",
+        "magento/magento-composer-installer-test-sort2": "1.*",
+        "magento/magento-composer-installer-test-sort3": "1.*"
+	},
+	"require-dev": {
+		"composer/composer": "dev-main"
+	},
+	"repositories": [
+		{
+            "type": "artifact",
+            "url": "../artifact/"
+        }
+	],
+	"extra":{
+		"magento-deploystrategy": "copy",
+        "magento-force": true,
+        "magento-deploy-sort-priority": {
+            "magento/magento-composer-installer-test-sort1": "200",
+            "magento/magento-composer-installer-test-sort2": "400",
+            "magento/magento-composer-installer-test-sort3": "200"
+        },
+        "auto-append-gitignore": true,
+        "magento-project": {
+            "libraryPath": "../htdocs/composer_lib/",
+            "libraries": {
+                "magento/magento-composer-installer-test-library": {}
+            }
+        },
+		"magento-root-dir": "../htdocs/"
+	}
+}

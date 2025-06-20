@@ -1,0 +1,32 @@
+{
+  "name": "mage-os/zend-db",
+  "description": "Zend Framework 1 Db package",
+  "type": "library",
+  "keywords": [
+    "framework",
+    "zf1",
+    "zend",
+    "db"
+  ],
+  "homepage": "http://framework.zend.com/",
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=7.0.0",
+    "mage-os/zend-exception": "1.2.0",
+    "mage-os/zend-loader": "1.2.0"
+  },
+  "replace": {
+    "magento/zend-db": "1.16.2"
+  },
+  "autoload": {
+    "psr-0": {
+      "Zend_Db": "library/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.16.x-dev"
+    }
+  },
+  "version": "1.2.0"
+}

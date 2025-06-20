@@ -1,0 +1,27 @@
+{
+  "name": "mage-os/module-application-performance-monitor-new-relic",
+  "license": "OSL-3.0",
+  "type": "magento2-module",
+  "description": "Performance data about Application into New Relic",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magento\\ApplicationPerformanceMonitorNewRelic\\": ""
+    }
+  },
+  "require": {
+    "php": "~8.2.0||~8.3.0||~8.4.0",
+    "mage-os/framework": "1.2.0",
+    "mage-os/module-application-performance-monitor": "1.2.0",
+    "mage-os/module-new-relic-reporting": "1.2.0"
+  },
+  "suggest": {
+    "ext-newrelic": "This module requires New Relic's PHP extension in order to function."
+  },
+  "version": "1.2.0",
+  "replace": {
+    "magento/module-application-performance-monitor-new-relic": "100.4.1"
+  }
+}

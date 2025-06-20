@@ -1,0 +1,32 @@
+{
+  "name": "mage-os/zend-memory",
+  "description": "Zend Framework 1 Memory package",
+  "type": "library",
+  "keywords": [
+    "framework",
+    "zf1",
+    "zend",
+    "memory"
+  ],
+  "homepage": "http://framework.zend.com/",
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=7.0.0",
+    "mage-os/zend-cache": "1.2.0",
+    "mage-os/zend-exception": "1.2.0"
+  },
+  "replace": {
+    "magento/zend-memory": "1.16.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Zend_Memory": "library/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.16.x-dev"
+    }
+  },
+  "version": "1.2.0"
+}

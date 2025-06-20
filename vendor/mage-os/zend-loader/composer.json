@@ -1,0 +1,31 @@
+{
+  "name": "mage-os/zend-loader",
+  "description": "Zend Framework 1 Loader package",
+  "type": "library",
+  "keywords": [
+    "framework",
+    "zf1",
+    "zend",
+    "loader"
+  ],
+  "homepage": "http://framework.zend.com/",
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=7.0.0",
+    "mage-os/zend-exception": "1.2.0"
+  },
+  "replace": {
+    "magento/zend-loader": "1.16.1"
+  },
+  "autoload": {
+    "psr-0": {
+      "Zend_Loader": "library/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.16.x-dev"
+    }
+  },
+  "version": "1.2.0"
+}

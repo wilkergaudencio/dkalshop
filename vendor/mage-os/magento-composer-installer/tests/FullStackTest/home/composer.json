@@ -1,0 +1,14 @@
+{
+    "repositories": [
+        {
+            "type": "artifact",
+            "url": "../artifact/"
+        }
+    ],
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "extra": {
+        "magento-root-dir": "root"
+    }
+}
