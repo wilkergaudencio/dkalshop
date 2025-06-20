@@ -22,8 +22,8 @@ Este projeto é uma loja virtual construída com **Magento (Mage-OS)** e o tema 
 ### 1. Clone o projeto
 
 ```bash
-git clone https://github.com/SEU_USUARIO/seu-projeto-magento.git
-cd seu-projeto-magento
+git clone https://github.com/wilkergaudencio/dkalshop.git
+cd dkalshop
 ```
 
 ### 2. Gere a estrutura base com template Mark Shust
